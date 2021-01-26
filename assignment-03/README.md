@@ -6,7 +6,7 @@ Three things I've learned so far:
 2. What IP addresses and Domain Naming Systems are
 3. How the internet communicates information
 
-Here is a [link](https://www.kayak.com) thttps://www.kayak.como to a website I use frequently using its absolute URL
+Here is a [link](https://www.kayak.com) to a website I use frequently using its absolute URL
 
 Here is a [link](./responses.txt) to my responses.txt using its relative URL
 
