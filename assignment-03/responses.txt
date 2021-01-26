@@ -1,0 +1,4 @@
+1. Three websites that I enjoyed visiting are https://www.umt.edu, https://www.kayak.com, and https://moodle.org
+2. Every device accessing the internet has it's own IP address. A DNS (Domain Name System) is essentially phonebook of IP addresses that tells servers where to send find/send information
+3. A cookie is a small piece of data stored on a the user's computer by the web browsers.
+4. The three essential parts of a URL are the protocol, domain name, and path
