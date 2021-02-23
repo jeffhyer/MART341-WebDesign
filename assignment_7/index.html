@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Favorite Business</title>
+    <!-- Define the character set used: -->
+   <meta charset="UTF-8">
+
+   <!-- Provide a description of your page: -->
+   <meta name="business" content="this page is all about my favorite business">
+
+   <!-- Author information on the page: -->
+   <meta name="author" content="Jeff Hyer">
+
+   <!-- Other meta elements -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Contact</h1>
+    <img src="./images/business-logo.jpg" alt="Indah Sushi logo" title="Indah Sushi" width="700" height="500" />
+    <address>
+      Indah Sushi<br />
+      250 E Second St.<br />
+      Whitefish, MT 59937 <br />
+      (406) 730-6001
+    </address>
+    <a href="mailto:hello@indahsushi">Email Us</a>
+    <br />
+    <br />
+
+    <table>
+       <tr>
+          <th></th>
+          <th scope="col">Sunday</th>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+          <th scope="col">Saturday</th>
+       </tr>
+       <tr>
+          <th scope="row">Opening Time</th>
+          <td>5:00PM</td>
+          <td>5:00PM</td>
+          <td>5:00PM</td>
+          <td>5:00PM</td>
+          <td>5:00PM</td>
+          <td>4:30PM</td>
+          <td>4:30PM</td>
+       </tr>
+       <tr>
+          <th scope="row">Closing Time</th>
+          <td>8:30PM</td>
+          <td>8:30PM</td>
+          <td>8:30PM</td>
+          <td>8:30PM</td>
+          <td>8:30PM</td>
+          <td>9:00PM</td>
+          <td>9:00PM</td>
+       </tr>
+       <tr>
+          <th scope="row">Takeout Orders Available</th>
+          <td>yes</td>
+          <td>yes</td>
+          <td>yes</td>
+          <td>yes</td>
+          <td>yes</td>
+          <td>no</td>
+          <td>no</td>
+       </tr>
+    </table>
+    <br />
+    <br />
+
+    <form action="https://www.indahsushi.com" method="get" id="text-box" class="reservations">
+      <p>Want to make a reservation? Please enter your name:</p>
+      <input type="text" name="username" id="username_input" placeholder="JohnnyAppleseed" autofocus/>
+      <br />
+      <p>Please enter a time:</p>
+      <input type="time" name="time" id="select-time" placeholder="5:30" />
+      <p>
+        Comments or Concerns:
+        <br />
+        <textarea name="comments" id="comments" rows="4" cols="50">Enter up to 500 characters...</textarea>
+      </p>
+      <p>Place reservation?</p>
+      <input type="radio" name="place-reservation" value="yes" /> yes
+      <br />
+      <input type="radio" name="place-reservation" value="no"/> no
+      <br />
+      <br />
+      <input type="submit" name="submit" value="Submit" />
+
+
+
+    </form>
+
+  </body>
+</html>
