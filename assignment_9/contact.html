@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Contact</title>
+    <!-- Define the character set used: -->
+   <meta charset="UTF-8">
+
+   <!-- Provide a description of your page: -->
+   <meta name="contact" content="this page containts my contact info">
+
+   <!-- Author information on the page: -->
+   <meta name="author" content="Jeff Hyer">
+
+   <!-- Other meta elements -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    body {
+      background-color: MediumSeaGreen;
+      text-align: center;
+    }
+    .contact {
+      background-color: white;
+      font-family: Arial;
+      font-size: 20px;
+      width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid black;
+    }
+    .menu {
+      background-color: white;
+      text-align: center;
+      color: white;
+      font-family: Arial;
+      font-size: 40px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id="menu-bar" class="menu">
+    <nav id="main-menu">
+      <a href="./index.html">Tutorial</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./about.html">About</a>
+    </nav>
+    </div>
+    </nav>
+    </br>
+    </br>
+    <div id="contact-form" class="contact">
+      <form action="./contact.html" method="get" id="text-box" class="contact-form">
+        <p>Want to contact me? Please enter your name:</p>
+        <input type="text" name="name" id="name_input" placeholder="JohnnyAppleseed" autofocus/>
+        <br />
+        <p>Please enter your email address:</p>
+        <input type="time" name="email" id="email_input" placeholder="5:30" />
+        <p>
+          Please enter your message:
+          <br />
+          <br />
+          <textarea name="comments" id="comments" rows="4" cols="50">Enter up to 500 characters...</textarea>
+        </p>
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+      </br>
+      <address>
+        The University of Montana<br />
+        32 Campus Dr<br />
+        Missoula, MT 59812
+      </address>
+    </div>
+  </body>
+</html>
