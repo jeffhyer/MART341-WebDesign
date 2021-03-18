@@ -1,0 +1,40 @@
+/* This is my css comment. */
+
+/* These are my element specific styles. */
+* {
+  font-family: Arial;
+  position: relative;
+  color: white;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #E47159
+  }
+body {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+h1 {
+  color: white;
+  background-color: #5F1F04;
+  border: 0px solid black;
+  padding: 10px;
+  }
+h2 {
+  color: ;
+  background-color: #F6C550;
+  border: 0px solid black;
+  padding: 10px;
+  }
+
+/* These are my class specific styles */
+.center {
+  text-align: center;
+  }
+.photo {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  }
+.gif {
+  opacity: 0.8;
+}
