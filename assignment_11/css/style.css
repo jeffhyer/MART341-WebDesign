@@ -1,0 +1,71 @@
+/* This is my css comment. */
+
+/* These are my element specific styles. */
+* {
+  position: relative;
+  font-family: 'Kanit', Arial;
+  color: white;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #A0EBED
+  }
+body {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+h1 {
+  color: white;
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Kanit-Bold';
+  background-color: #A0EBED;
+  border: 0px solid black;
+  padding: 10px;
+  }
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Kanit-Bold;
+  background-color: #A0EBED;
+  border: 0px solid black;
+  padding-top: 10px;
+  }
+h3
+  {
+  color: white;
+  text-align: center;
+  font-family: 'Kanit-Bold';
+  background-color: #A0EBED;
+  border: 0px solid black;
+  padding: 10px;
+  }
+p {
+  font-weight: bold;
+  }
+.stanza-1::first-line {
+  font-size: 30px;
+}
+a:hover {
+   color: blue;
+   text-transform: uppercase;
+   font-style: italic;
+}
+#poem
+  {
+  background-color: white;
+  line-height: 2;
+  color: black;
+  font-size: 24px;
+  padding: 20px;
+  }
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ExtraLight.ttf') format('opentype');
+    font-size: normal;
+  }
+@font-face {
+      font-family: 'Kanit-Bold';
+      src: url('../fonts/Kanit-SemiBold.ttf') format('opentype');
+      font-size: normal;
+    }
