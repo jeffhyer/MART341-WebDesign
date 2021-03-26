@@ -18,7 +18,7 @@ h1 {
   letter-spacing: 10px;
   text-align: center;
   font-size: 60px;
-  font-family: 'Kanit-Bold';
+  font-family: 'Quicksand';
   background-color: #A0EBED;
   border: 0px solid black;
   padding: 10px;
@@ -67,5 +67,10 @@ a:hover {
 @font-face {
       font-family: 'Kanit-Bold';
       src: url('../fonts/Kanit-SemiBold.ttf') format('opentype');
+      font-size: normal;
+    }
+@font-face {
+      font-family: 'Quicksand';
+      src: url('../fonts/Quicksand-Regular.ttf') format('opentype');
       font-size: normal;
     }
