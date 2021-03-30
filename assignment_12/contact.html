@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Contact</title>
+   <meta charset="UTF-8">
+   <meta name="contact" content="this page containts my contact info">
+   <meta name="author" content="Jeff Hyer">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+   <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
+
+    <style>
+    .contact {
+      background-color: #0e94b5;
+      color: white;
+      font-family: "Kanit";
+      font-size: 20px;
+      width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+    }
+    input {
+      color: #333;
+    }
+    </style>
+  </head>
+
+  <body>
+    <header>
+    <div class="topnav">
+      <a class="active" href="./index.html">Home</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./about.html">About</a>
+    </div>
+    </header>
+
+    </br>
+    </br>
+    <div id="contact-form" class="contact">
+      <form action="./contact.html" method="get" id="text-box" class="contact-form">
+        <p>Want to contact me? Please enter your name:</p>
+        <input type="text" name="name" id="name_input" placeholder="JohnnyAppleseed" autofocus/>
+        <br />
+        <p>Please enter your email address:</p>
+        <input type="time" name="email" id="email_input" placeholder="5:30" />
+        <p>
+          Please enter your message:
+          <br />
+          <br />
+          <textarea name="comments" id="comments" rows="4" cols="50">Enter up to 500 characters...</textarea>
+        </p>
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+      </br>
+      <address>
+        The University of Montana<br />
+        32 Campus Dr<br />
+        Missoula, MT 59812
+      </address>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: #0e94b5;
+  text-align: center;
+  }
+
+h1 {
+  font-family: 'Kanit', Arial;
+  color: #ddd;
+  font-size: 50px;
+  }
+
+h2 {
+    font-family: 'Kanit', Arial;
+    color: #ddd;
+    }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin: 0;
+  font-family: 'Kanit', Helvetica, sans-serif;
+  }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+.topnav a.active {
+  background-color: #0e94b5;
+  color: white;
+  }
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ExtraLight.ttf') format('opentype');
+    font-size: normal;
+  }
+@font-face {
+      font-family: 'Kanit-Bold';
+      src: url('../fonts/Kanit-SemiBold.ttf') format('opentype');
+      font-size: normal;
+    }
+@font-face {
+      font-family: 'Quicksand';
+      src: url('../fonts/Quicksand-Regular.ttf') format('opentype');
+      font-size: normal;
+    }
