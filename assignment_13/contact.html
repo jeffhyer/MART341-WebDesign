@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Contact</title>
+   <meta charset="UTF-8">
+   <meta name="contact" content="this page containts my contact info">
+   <meta name="author" content="Jeff Hyer">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+   <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
+    <style>
+    .contact {
+      background-color: #ffe9ad;
+      color: black;
+      font-family: "Kanit";
+      font-size: 20px;
+      width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid black;
+    }
+    input {
+      color: #333;
+    }
+    </style>
+  </head>
+
+  <body>
+    <header class="">
+       <div class="menu-item">
+          <a href="./index.html">Home</a>
+       </div>
+       <div class="menu-item">
+          <a href="./about.html">About</a>
+       </div>
+       <div class="menu-item">
+          <a href="./contact.html">Contact</a>
+       </div>
+       <div class="menu-item">
+          <a href="./menu.html">Menu</a>
+       </div>
+       <div class="menu-item dropdown">
+          <a href="#">Partners</a>
+          <div class="dropdown-content">
+             <div class="dropdown-item">
+                <a href="https://www.pizzahut.com">Pizza Hut</a>
+             </div>
+             <div class="dropdown-item">
+                <a href="https://www.dominos.com/en/">Dominos</a>
+             </div>
+             <div class="dropdown-item">
+                <a href="https://littlecaesars.com/en-us/">Little Caesars</a>
+             </div>
+           </div>
+       </div>
+    </header>
+
+    </br>
+    </br>
+    <div id="contact-form" class="contact">
+      <form action="./contact.html" method="get" id="text-box" class="contact-form">
+        <p>Want to call in a pizza order? Please enter your name:</p>
+        <input type="text" name="name" id="name_input" placeholder="JohnnyAppleseed" autofocus/>
+        <br />
+        <p>Please enter your email address:</p>
+        <input type="time" name="email" id="email_input" placeholder="5:30" />
+        <p>
+          Please enter your message:
+          <br />
+          <br />
+          <textarea name="comments" id="comments" rows="4" cols="50">Enter up to 500 characters...</textarea>
+        </p>
+        <input type="submit" name="submit" value="Submit" />
+      </form>
+      </br>
+      <address>
+        Jeff's Pizza Parlor<br />
+        311 Pizza Drive<br />
+        Missoula, MT 59812
+      </address>
+    </div>
+  </body>
+</html>
