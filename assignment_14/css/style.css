@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+  margin: 0;
+  background-color: #ffe9ad;
+  text-align: center;
+  font-size: 10pt;
+  padding: 0;
+  }
+
+h1 {
+  font-family: 'Kanit', Arial;
+  color: black;
+  font-size: 50px;
+  }
+
+h2 {
+    font-family: 'Kanit', Arial;
+    color: #ddd;
+    }
+    .site-brand {
+       margin: 2em;
+       text-align: center;
+       font-size: 150%;
+    }
+
+    /* Set your header design: */
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #26272b;
+    font-family: 'Kanit', Arial;
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    text-align: left;
+    }
+
+    /* Set the layout of the menu: */
+    .menu-item, .site-name {
+        display: inline-block;
+        margin: 1em .2em;
+        min-width: 6em;
+        text-align: center;
+        background-color: #26272b;
+        padding: 0.5em 1em;
+    }
+
+    /* Style the links: */
+    .menu-item a {
+        color: #ffe9ad;
+        text-decoration: none;
+    }
+
+    .menu-item:hover {
+        color: black;
+        background-color: #ffe9ad;
+    }
+
+    /* Add a dropdown feature: */
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        border: 1px solid #000;
+        margin: 0.5em 0 0 -1em;
+        color: #000;
+        background-color: #fff;
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: #000;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Style dropdown item display: */
+    .dropdown-item {
+        display: block;
+        text-align: left;
+        margin: 0;
+        padding: 0.5em 1em 0.5em 1em;
+        min-width: 5.9em;
+    }
+
+    .dropdown-item:hover, .dropdown-item:hover a {
+        color: #ffe9ad;
+        background-color: black;
+    }
+
+    /* Style the Main Content: */
+    .site-name {
+        float: left;
+        padding-right: 1em;
+        color: #1CCDCA;
+    }
+    .main-container {
+        margin-top: 2em;
+        padding: 1em;
+        line-height: 1.4em;
+        color: black;
+        font-family: 'Kanit';
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 20px;
+    }
+    *{
+      font-family: Arial, Verdana, Tahoma;
+    }
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ExtraLight.ttf') format('opentype');
+    font-size: normal;
+  }
+@font-face {
+      font-family: 'Kanit-Bold';
+      src: url('../fonts/Kanit-SemiBold.ttf') format('opentype');
+      font-size: normal;
+    }
+@font-face {
+      font-family: 'Quicksand';
+      src: url('../fonts/Quicksand-Regular.ttf') format('opentype');
+      font-size: normal;
+    }

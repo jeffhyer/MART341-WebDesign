@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Art</title>
+   <meta charset="UTF-8">
+   <meta name="about" content="this the page about me">
+   <meta name="author" content="Jeff Hyer">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--<link rel="stylesheet" type="text/css" href="./css/style.css"/>-->
+   <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
+   <link rel="stylesheet" href="./css/foundation.css">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Compressed JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <body>
+    <header class="">
+     <div class="menu-item">
+        <a href="./index.html">Home</a>
+     </div>
+     <div class="menu-item">
+        <a href="./about.html">About</a>
+     </div>
+     <div class="menu-item">
+        <a href="./contact.html">Contact</a>
+     </div>
+     <div class="menu-item">
+        <a href="./menu.html">Menu</a>
+     </div>
+     <div class="menu-item">
+        <a href="./art.html">Art</a>
+     </div>
+     <div class="menu-item dropdown">
+        <a href="#">Partners</a>
+        <div class="dropdown-content">
+           <div class="dropdown-item">
+              <a href="https://www.pizzahut.com">Pizza Hut</a>
+           </div>
+           <div class="dropdown-item">
+              <a href="https://www.dominos.com/en/">Dominos</a>
+           </div>
+           <div class="dropdown-item">
+              <a href="https://littlecaesars.com/en-us/">Little Caesars</a>
+           </div>
+         </div>
+     </div>
+
+  </header>
+
+  <canvas id="myCanvas" width="1000" height="1000"></canvas>
+  <script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+
+  // first line
+  ctx.moveTo(0, 0);
+  ctx.lineTo(200, 100);
+  ctx.stroke();
+
+  // second line
+  ctx.moveTo(200, 100);
+  ctx.lineTo(0, 200);
+  ctx.stroke();
+
+  // third line
+  ctx.moveTo(0, 200);
+  ctx.lineTo(200, 300);
+  ctx.stroke();
+
+  // fourth line
+  ctx.moveTo(200, 300);
+  ctx.lineTo(0, 400);
+  ctx.stroke();
+
+  // fifth line
+  ctx.moveTo(0, 400);
+  ctx.lineTo(200, 500);
+  ctx.stroke();
+
+  // sixth line
+  ctx.moveTo(200, 500);
+  ctx.lineTo(0, 600);
+  ctx.stroke();
+
+  // top circle
+
+  ctx.beginPath();
+  ctx.arc(200, 100, 40, 0, 2 * Math.PI);
+  ctx.fillStyle = "#fcbd65";
+  ctx.fill();
+  ctx.stroke();
+
+  // middle circle
+
+  ctx.beginPath();
+  ctx.arc(200, 300, 40, 0, 2 * Math.PI);
+  ctx.fillStyle = "#000000";
+  ctx.fill();
+  ctx.stroke();
+
+  // final circle
+
+  ctx.beginPath();
+  ctx.arc(200, 500, 40, 0, 2 * Math.PI);
+  ctx.fillStyle = "#fcbd65";
+  ctx.fill();
+  ctx.stroke();
+
+
+  // first line
+  ctx.moveTo(800, 0);
+  ctx.lineTo(600, 100);
+  ctx.stroke();
+
+  // second line
+  ctx.moveTo(600, 100);
+  ctx.lineTo(800, 200);
+  ctx.stroke();
+
+  // third line
+  ctx.moveTo(800, 200);
+  ctx.lineTo(600, 300);
+  ctx.stroke();
+
+  // fourth line
+  ctx.moveTo(600, 300);
+  ctx.lineTo(800, 400);
+  ctx.stroke();
+
+  // fifth line
+  ctx.moveTo(800, 400);
+  ctx.lineTo(600, 500);
+  ctx.stroke();
+
+  // sixth line
+  ctx.moveTo(600, 500);
+  ctx.lineTo(800, 600);
+  ctx.stroke();
+
+  // top circle
+  ctx.beginPath();
+  ctx.arc(600, 100, 40, 0, 2 * Math.PI);
+  ctx.fillStyle = "#fcbd65";
+  ctx.fill();
+  ctx.stroke();
+
+  // middle circle
+
+  ctx.beginPath();
+  ctx.arc(600, 300, 40, 0, 2 * Math.PI);
+  ctx.fillStyle = "#000000";
+  ctx.fill();
+  ctx.stroke();
+
+  // final circle
+
+  ctx.beginPath();
+  ctx.arc(600, 500, 40, 0, 2 * Math.PI);
+  ctx.fillStyle = "#fcbd65";
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.font = "20px Tahoma";
+  ctx.fillStyle = "#000000";
+  ctx.fillText("Jeff Hyer", 500, 595);
+
+  ctx.font = "72px Arial";
+  ctx.strokeText("J", 375, 100);
+  ctx.strokeText("E", 375, 200);
+  ctx.strokeText("F", 375, 300);
+  ctx.strokeText("F", 375, 400);
+     </script>
+
+  </body>
+</html>
