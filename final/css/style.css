@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Verdana, Tahoma;
+  }
+body {
+  margin: 0;
+  background-color: #cbe0a8;
+  text-align: center;
+  font-size: 10pt;
+  padding: 0;
+  }
+h1 {
+  font-family: 'Kanit', Arial;
+  color: black;
+  font-size: 50px;
+  }
+h2 {
+    font-family: 'Kanit', Arial;
+    color: #ddd;
+    }
+    .site-brand {
+       margin: 2em;
+       text-align: center;
+       font-size: 150%;
+    }
+#name_input {
+  width: 70%;
+  margin: auto;
+  }
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-ExtraLight.ttf') format('opentype');
+    font-size: normal;
+  }
+@font-face {
+      font-family: 'Kanit-Bold';
+      src: url('../fonts/Kanit-SemiBold.ttf') format('opentype');
+      font-size: normal;
+    }
+@font-face {
+      font-family: 'Quicksand';
+      src: url('../fonts/Quicksand-Regular.ttf') format('opentype');
+      font-size: normal;
+    }
