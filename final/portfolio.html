@@ -8,8 +8,8 @@
   <meta name="author" content="portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/foundation.css">
+  <link rel="stylesheet" href="./css/style.css">
 <!-- w3schools additional stylesheet -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -48,15 +48,18 @@
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
 </div>
 
+</br>
+</br>
+</br>
+</br>
+<h1 class="pagetitle">VIDEO</h1>
+</br>
+</br>
 <!-- End Page Content -->
 </div>
 <div class="responsive-embed">
   <iframe width="840" height="630" src="https://www.youtube.com/embed/MhXtxYU6tPg" frameborder="0" allowfullscreen></iframe>
 </div>
-</br>
-<h1>SAMPLE WORK</h1>
-</br>
-</br>
 <div class="responsive-embed">
   <iframe width="840" height="630" src="https://www.youtube.com/embed/MjBzm-eGoIw" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -66,6 +69,70 @@
 <div class="responsive-embed">
   <iframe width="840" height="630" src="https://www.youtube.com/embed/MnsqjqCJKKk" frameborder="0" allowfullscreen></iframe>
 </div>
+</br>
+</br>
+<h1 class="pagetitle">PHOTO</h1>
+</br>
+</br>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img class="slideimage" src="./images/image1.jpeg" style="width:100%">
+    <div class="text">Photographer</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img class="slideimage" src="./images/image2.jpeg" style="width:100%">
+    <div class="text">Landscape Photography</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img class="slideimage" src="./images/image3.jpeg" style="width:100%">
+    <div class="text">Wildlife Photography</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img class="slideimage" src="./images/image6.jpeg" style="width:100%">
+    <div class="text">Hospitality Photography</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img class="slideimage" src="./images/image7.jpeg" style="width:100%">
+    <div class="text">Food Photography</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img class="slideimage" src="./images/image8.jpeg" style="width:100%">
+    <div class="text">Nature Photography</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+</br>
+</br>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
@@ -76,6 +143,35 @@
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
 </footer>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+}
+</script>
 </body>
 </html>
